@@ -2,7 +2,7 @@ import React from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all';
 import Hero from './sections/Hero';
-import Navbar from './sections/Navbar';
+import Navbar from './sections/NavBar';
 import FirstVideo from './sections/FirstVideo';
 import Jason from './sections/Jason';
 import SecondVideo from './sections/SecondVideo';
@@ -19,6 +19,7 @@ const App = () => {
    <main>
 
      <Navbar/>
+    
      <Hero/>
 
      <FirstVideo />
