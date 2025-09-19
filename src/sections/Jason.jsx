@@ -2,8 +2,6 @@ import React from 'react'
 import gsap from 'gsap'
 import { useGSAP } from '@gsap/react'
 
-
-
 const Jason = () => {
     useGSAP(()=>{
         gsap.set(".jason",{marginTop:'-80vh' });
