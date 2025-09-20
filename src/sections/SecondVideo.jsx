@@ -30,7 +30,7 @@ const SecondVideo = () => {
             <video
                 ref={videoRef}
                 muted
-                playInline
+                playsInline
                 preload="auto"
                 src="/videos/output2.mp4"
                 className='size-full object-cover second-vd'

@@ -14,7 +14,6 @@ const Hero = () => {
     });
 
     gsap.set('.mask-logo', { marginTop: '-100vh', opacity: 0 });
-
     gsap.set('.entrance-message', { marginTop: '0vh' });
 
     const tl = gsap.timeline({
@@ -25,17 +24,15 @@ const Hero = () => {
         end: '+=200%',
         pin: true,
       }
-    })
+    });
 
     tl
       .to('.fade-out', { opacity: 0, ease: 'power1.inOut' })
       .to('.scale-out', { scale: 1, ease: 'power1.inOut' })
       .to('.mask-wrapper', { maskSize, ease: 'power1.inOut' }, '<')
       .to('.mask-wrapper', { opacity: 0 })
-      .to('.overlay-logo', { opacity: 1, onComplete: () => {
-        gsap.to('.overlay-logo', { opacity: 0 });
-      } }, '<')
-      .to('.entrance-message', { duration: 1, ease: 'power1.inOut', maskImage: 'radial-gradient(circle at 50% 0vh, black 50%, transparent 100%)' }, '<')
+      .to('.overlay-logo', { opacity: 1 }, '<')
+      .to('.entrance-message', { duration: 1, ease: 'power1.inOut', maskImage: 'radial-gradient(circle at 50% 0vh, black 50%, transparent 100%)' }, '<');
   });
 
   return (
