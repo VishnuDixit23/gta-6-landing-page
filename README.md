@@ -29,6 +29,10 @@ React Responsive: A library for implementing responsive design logic.
 
 Vite: The build tool and development server for a fast and efficient workflow.
 
+
+
+
+
 🚀 Installation and Setup
 To get a copy of this project up and running on your local machine for development and testing, follow these steps.
 
