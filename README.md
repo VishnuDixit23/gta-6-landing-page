@@ -1,6 +1,8 @@
 Grand Theft Auto VI Landing Page
 This is a modern, responsive landing page for Grand Theft Auto VI, featuring dynamic animations and scroll effects.
 
+CHECK OUT THE LIVE DEMO : https://gta-6-landing-page-bffc.vercel.app/
+
 🌟 Features
 Responsive Design: The layout and animations are optimized for various screen sizes, from mobile devices to large desktops.
 
